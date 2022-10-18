@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rogue Company</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <button class="burger" aria-label="burger-menu">
+            <span class="burger__line"></span>
+        </button>
+        <div class="container">
+            <div class="header__top">
+                <div class="header__inner">
+                    <a class="logo">
+                        <img class="header__logo-img" src="images/logo.png" alt="logo">
+                    </a>
+                    <p class="header__name">Sakurai</p>
+                </div>
+                <div class="header__socials">
+                    <div class="header__socials-items">
+                        <a class="header__socials-link" href="https://discord.gg/R7DCyp3cbb" target="_blank">
+                            <img class="header__socials-img" src="images/discord.svg" alt="discord">
+                        </a>
+                        <a class="header__socials-link" href="#">
+                            <img class="header__socials-img telegram-icon" src="images/telegram.svg" alt="telegram">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__nav">
+            <nav class="header__menu">
+                <ul class="header__menu-list">
+                    <li class="header__menu-item">
+                        <a class="header__menu-link" href="/">
+                            Home
+                        </a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a class="header__menu-link--active" href="">
+                            Products
+                        </a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a class="header__menu-link" href="https://sakurai.sellix.io/" target="_blank">
+                            Store
+                        </a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a class="header__menu-link" href="index.html#faq">
+                            FAQ
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="promo__decorative">
+            <h1 class="promo__decorative-title">Products</h1>
+        </section>
+
+        <section class="game-img">
+            <div class="container">
+                <div class="image-compare" id="image-compare">
+                    <img src="images/before.png" alt="" />
+                    <img src="images/after.png" alt="" />
+                </div>
+            </div>
+        </section>
+
+        <div class="tabs">
+            <div class="wrapper">
+                <div class="tabs__buttons">
+                    <div class="tabs__button tabs__button-features active" data-value="1">Features</div>
+                    <div class="tabs__button tabs__button-system" data-value="2">System</div>
+                    <div class="tabs__button tabs__button-price" data-value="3">Media</div>
+                    <div class="tabs__button tabs__button-media" data-value="4">Buy Now</div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="tabs__content">
+                    <div class="tabs__content-item tab--1 active">
+                        <section class="features">
+                            <div class="features__list">
+
+                                <!-- first item "Aimbot" -->
+                                <div class="features__list-item features__list-item--1">
+                                    <h3 class="features__item-title">
+                                        <img class="features__item-logo" src="images/aim-features.svg" alt="">Aimbot
+                                    </h3>
+                                    <div class="features__item-wrapper">
+                                        <ul class="features__item-inner">
+                                            <li>
+                                                <h4 class="features__item-subtitle">
+                                                    Aimimg
+                                                </h4>
+                                                <ul class="features__item-list">
+                                                    <li class="features__item-function">Fov</li>
+                                                    <li class="features__item-function">Smooth</li>
+                                                    <li class="features__item-function">Nearest</li>
+                                                    <li class="features__item-function">Ignore Nocked</li>
+                                                    <li class="features__item-function">Aim at&nbsp;Vehicle</li>
+                                                    <li class="features__item-function">Triggerbot</li>
+                                                    <li class="features__item-function">Disable aimbot when local
+                                                        abilities is&nbsp;active</li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <h4 class="features__item-subtitle">
+                                                    Accuracy
+                                                </h4>
+                                                <ul class="features__item-list">
+                                                    <li class="features__item-function">Disable recoil</li>
+                                                    <li class="features__item-function">Nospread Factor</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                        <div class="features__item-media">
+                                            <img class="features__item-gif" src="images/aimbot_tab.gif" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- second item "Other ESP" -->
+                                <div class="features__list-item features__list-item--2">
+                                    <h3 class="features__item-title">
+                                        <img class="features__item-logo" src="images/watch-features.svg" alt="">Other
+                                        ESP
+                                    </h3>
+                                    <div class="features__item-wrapper">
+                                        <ul class="features__item-inner">
+                                            <li>
+                                                <h4 class="features__item-subtitle">
+                                                    Bomb
+                                                </h4>
+                                                <ul class="features__item-list">
+                                                    <li class="features__item-function">Show Name</li>
+                                                    <li class="features__item-function">Box Type
+                                                        <ul>
+                                                            <li class="features__item-setting">None</li>
+                                                            <li class="features__item-setting">Full</li>
+                                                            <li class="features__item-setting">Corner</li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <h4 class="features__item-subtitle">
+                                                    Building
+                                                </h4>
+                                                <ul class="features__item-list">
+                                                    <li class="features__item-function">Show Name</li>
+                                                    <li class="features__item-function">Box Type
+                                                        <ul>
+                                                            <li class="features__item-setting">None</li>
+                                                            <li class="features__item-setting">Full</li>
+                                                            <li class="features__item-setting">Corner</li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <h4 class="features__item-subtitle">
+                                                    Grenade
+                                                </h4>
+                                                <ul class="features__item-list">
+                                                    <li class="features__item-function">Show Name</li>
+                                                    <li class="features__item-function">Box Type
+                                                        <ul>
+                                                            <li class="features__item-setting">None</li>
+                                                            <li class="features__item-setting">Full</li>
+                                                            <li class="features__item-setting">Corner</li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <h4 class="features__item-subtitle">
+                                                    Loot
+                                                </h4>
+                                                <ul class="features__item-list">
+                                                    <li class="features__item-function">Show Name</li>
+                                                    <li class="features__item-function">Box Type
+                                                        <ul>
+                                                            <li class="features__item-setting">None</li>
+                                                            <li class="features__item-setting">Full</li>
+                                                            <li class="features__item-setting">Corner</li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <h4 class="features__item-subtitle">
+                                                    Vehicle
+                                                </h4>
+                                                <ul class="features__item-list">
+                                                    <li class="features__item-function">Show Name</li>
+                                                    <li class="features__item-function">Box Type
+                                                        <ul>
+                                                            <li class="features__item-setting">None</li>
+                                                            <li class="features__item-setting">Full</li>
+                                                            <li class="features__item-setting">Corner</li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                        <div class="features__item-media">
+                                            <img class="features__item-gif" src="images/other_esp_tab.gif" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- third item "Player ESP" -->
+                                <div class="features__list-item features__list-item--3">
+                                    <h3 class="features__item-title">
+                                        <img class="features__item-logo" src="images/watch-features.svg" alt="">Player
+                                        ESP
+                                    </h3>
+                                    <div class="features__item-wrapper">
+                                        <ul class="features__item-inner">
+                                            <li>
+                                                <h4 class="features__item-subtitle">
+                                                    General
+                                                </h4>
+                                                <ul class="features__item-list">
+                                                    <li class="features__item-function">Show Name</li>
+                                                    <li class="features__item-function">Show Flags</li>
+                                                    <li class="features__item-function">Box Type
+                                                        <ul>
+                                                            <li class="features__item-setting">None</li>
+                                                            <li class="features__item-setting">Full</li>
+                                                            <li class="features__item-setting">Corner</li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="features__item-function">Glow Type
+                                                        <ul>
+                                                            <li class="features__item-setting">None</li>
+                                                            <li class="features__item-setting">Low</li>
+                                                            <li class="features__item-setting">Intensive</li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="features__item-function">Glow Intensity Factor</li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <h4 class="features__item-subtitle">
+                                                    Bars
+                                                </h4>
+                                                <ul class="features__item-list">
+                                                    <li class="features__item-function">Healthbar Type
+                                                        <ul>
+                                                            <li class="features__item-setting">None</li>
+                                                            <li class="features__item-setting">Default</li>
+                                                            <li class="features__item-setting">Separated</li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="features__item-function">Armorbar Type
+                                                        <ul>
+                                                            <li class="features__item-setting">None</li>
+                                                            <li class="features__item-setting">Default</li>
+                                                            <li class="features__item-setting">Separated</li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <h4 class="features__item-subtitle">
+                                                    Bones
+                                                </h4>
+                                                <ul class="features__item-list">
+                                                    <li class="features__item-function">Show Selected Bone</li>
+                                                    <li class="features__item-function">Skeleton
+                                                        <ul>
+                                                            <li class="features__item-setting">None</li>
+                                                            <li class="features__item-setting">Enemies</li>
+                                                            <li class="features__item-setting">Local</li>
+                                                            <li class="features__item-setting">All</li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="features__item-function">Head Circle
+                                                        <ul>
+                                                            <li class="features__item-setting">None</li>
+                                                            <li class="features__item-setting">Enemies</li>
+                                                            <li class="features__item-setting">Local</li>
+                                                            <li class="features__item-setting">All</li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                        <div class="features__item-media">
+                                            <img class="features__item-gif" src="images/player_esp.gif" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- fourth item "Miscellaneous" -->
+                                <div class="features__list-item features__list-item--4">
+                                    <h3 class="features__item-title">
+                                        <img class="features__item-logo" src="images/settings-features.svg"
+                                            alt="">Miscellaneous
+                                    </h3>
+                                    <div class="features__item-wrapper">
+                                        <ul class="features__item-inner">
+                                            <li>
+                                                <ul class="features__item-list">
+                                                    <li class="features__item-function">Bunnyhop</li>
+                                                    <li class="features__item-function">Show Footsteps</li>
+                                                    <li class="features__item-function">Jitter Model</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                        <div class="features__item-media">
+                                            <img class="features__item-gif" src="images/misc_tab.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                    </div>
+                    <div class="tabs__content-item tab--2">
+                        <section class="system">
+                            <div class="system__list">
+                                <div class="system__list-item">
+                                    <p class="system__item-name">Game client</p>
+                                    <p class="system__item-description">Steam, Epic Games Store</p>
+                                </div>
+                                <div class="system__list-item">
+                                    <p class="system__item-name">Supported OS</p>
+                                    <p class="system__item-description">windows 10 1803 - windows 11 22000.318+</p>
+                                </div>
+                                <div class="system__list-item">
+                                    <p class="system__item-name">Supported processors</p>
+                                    <p class="system__item-description">Intel, AMD</p>
+                                </div>
+                                <div class="system__list-item">
+                                    <p class="system__item-name">Supported GPUs</p>
+                                    <p class="system__item-description">Nvidia, AMD, Intel</p>
+                                </div>
+                                <div class="system__list-item">
+                                    <p class="system__item-name">Stream bypass</p>
+                                    <p class="system__item-description">No</p>
+                                </div>
+                                <div class="system__list-item">
+                                    <p class="system__item-name">Supported languages</p>
+                                    <p class="system__item-description">Ingame language</p>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="tabs__content-item tab--3">
+                        <section class="media">
+                            <iframe width="660" height="371" src="https://www.youtube.com/embed/TvAWNBUL0JM"
+                                title="rogue company hack review" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </section>
+                    </div>
+                    <div class="tabs__content-item tab--4">
+                        <section class="price">
+                            <div class="price__list">
+                                <div class="price__list-item">
+                                    <p class="price__item-time">1&nbsp;day subscription</p>
+                                    <p class="price__item-cost">2.49&nbsp;$</p>
+                                    <a class="price__item-btn"
+                                        href="https://sakurai.sellix.io/product/62ebbd48f3f49">Buy Now</a>
+                                </div>
+                                <div class="price__list-item">
+                                    <p class="price__item-time">7&nbsp;day&rsquo;s subscription</p>
+                                    <p class="price__item-cost">5.99&nbsp;$</p>
+                                    <a class="price__item-btn"
+                                        href="https://sakurai.sellix.io/product/6300e05d12cde">Buy Now</a>
+                                </div>
+                                <div class="price__list-item">
+                                    <p class="price__item-time">30&nbsp;day&rsquo;s subscription</p>
+                                    <p class="price__item-cost">12.49&nbsp;$</p>
+                                    <a class="price__item-btn"
+                                        href="https://sakurai.sellix.io/product/6300e15cbdb37">Buy Now</a>
+                                </div>
+                                <div class="price__list-item">
+                                    <p class="price__item-time">60&nbsp;day&rsquo;s subscription</p>
+                                    <p class="price__item-cost">22.99&nbsp;$</p>
+                                    <a class="price__item-btn"
+                                        href="https://sakurai.sellix.io/product/6300e1f787f97">Buy Now</a>
+                                </div>
+                                <div class="price__list-item">
+                                    <p class="price__item-time">120 day&rsquo;s subscription</p>
+                                    <p class="price__item-cost">42.99&nbsp;$</p>
+                                    <a class="price__item-btn"
+                                        href="https://sakurai.sellix.io/product/6300e2651d02f">Buy Now</a>
+                                </div>
+                                <div class="price__list-item">
+                                    <p class="price__item-time">360 day&rsquo;s subscription</p>
+                                    <p class="price__item-cost">79.99&nbsp;$</p>
+                                    <a class="price__item-btn"
+                                        href="https://sakurai.sellix.io/product/6300e7ab1a06e">Buy Now</a>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="decorative"></div>
+    </main>
+
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer__inner">
+                <p class="footer__name">Sakurai Developer</p>
+                <a class="footer__refund" href="refund.html">
+                    Refund Policy
+                </a>
+                <a href="mailto:sakurai.developer@gmail.com" class="footer__email">sakurai.developer@gmail.com</a>
+                <p class="footer__copyright">
+                    Copyright &copy;&nbsp;2022&nbsp;SAKURAI&nbsp;&mdash; All rights reserved
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>
