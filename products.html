@@ -4,6 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Best cheats for modern games">
+    <meta name="keywords"
+        content="best cheats, best private cheats, private cheats, overprime hack, battlefield hack, battlefield cheats, Paragon: The Overprime cheats, paragon cheats, overprime cheats">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="images/favicons/site.webmanifest">
+    <link rel="mask-icon" href="images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
     <title>Products</title>
     <link rel="stylesheet" href="css/style.min.css">
 </head>
@@ -26,7 +36,7 @@
                         <a class="header__socials-link" href="https://discord.gg/R7DCyp3cbb" target="_blank">
                             <img class="header__socials-img" src="images/discord.svg" alt="discord">
                         </a>
-                        <a class="header__socials-link" href="/">
+                        <a class="header__socials-link" href="https://t.me/sakurai_digital" target="_blank">
                             <img class="header__socials-img telegram-icon" src="images/telegram.svg" alt="telegram">
                         </a>
                     </div>
@@ -37,7 +47,7 @@
             <nav class="header__menu">
                 <ul class="header__menu-list">
                     <li class="header__menu-item">
-                        <a class="header__menu-link" href="index.html">
+                        <a class="header__menu-link" href="/">
                             Home
                         </a>
                     </li>
@@ -74,9 +84,13 @@
                         <p class="products__card-status">software</p>
                         <p class="products__card-price">Starting at: 1,50$</p>
                         <div class="products__card-inner">
-                            <a class="products__card-btn" href="https://sakurai.sellix.io/group/638350374795b"
-                                target="_blank">Buy
-                                now</a>
+                            <div id="dialog-content" class="modal" style="display:none;max-width:500px;">
+                                <p class="modal__description">
+                                    Get a 10% discount coupon in our <a class="modal__media" href="https://discord.gg/R7DCyp3cbb" target="_blank">discord</a> or <a class="modal__media" href="https://t.me/sakurai_digital" target="_blank">telegram</a>
+                                </p>
+                                <a class="modal__link" href="https://sakurai.sellix.io/group/638350374795b" target="_blank">Go to the store</a>
+                            </div>
+                            <button class="products__card-btn" data-fancybox="dialog" data-src="#dialog-content">Buy now</button>
                             <a class="products__card-btn" href="bf5.html">Review</a>
                         </div>
                     </div>
@@ -112,6 +126,7 @@
         </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
     <script src="js/main.min.js"></script>
 </body>
 

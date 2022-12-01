@@ -18,7 +18,11 @@ for (i = 0; i < gameAccordion.length; i++) {
     this.classList.toggle('active')
   })
 }
-
+Fancybox.bind("[data-fancybox]", {
+  autoFocus: false,
+  dragToClose: false,
+  groupAttr: false
+});
 //slider
 // var splide = new Splide('.splide', {
 //   cover      : false,
