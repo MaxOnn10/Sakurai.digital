@@ -16,30 +16,6 @@ Fancybox.bind("[data-fancybox]", {
   groupAttr: false
 });
 
-//slider
-var splide = new Splide('.splide', {
-  // cover      : false,
-  pagination : false,
-  gap: 60,
-  perPage: 3,
-  perMove: 1,
-
-  breakpoints: {
-    1070: {
-      perPage: 2,
-      perMove: 2,
-
-    },
-    750: {
-      perPage: 1,
-      perMove: 1
-    }
-  }
-  
-});
-
-splide.mount();
-
 //burger-menu
 burger.addEventListener('click', function () {
   burger.classList.toggle("burger--active");

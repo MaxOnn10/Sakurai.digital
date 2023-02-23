@@ -18,11 +18,11 @@
             grid-column: 1/-1;
         }
     }
-    .products {
-        &__card {
-            margin-bottom: 25px;
-        }
-    }
+    // .products {
+    //     &__card {
+    //         margin-bottom: 25px;
+    //     }
+    // }
     .faq {
         &__accordion {
             grid-template-columns: 1fr;
@@ -103,8 +103,8 @@
             margin-bottom: 50px;
         }
         &__accordion-title {
-            font-size: 13px;
-            line-height: 18px;
+            font-size: 12px;
+            line-height: 17px;
             font-weight: 600;
         }
         &__accordion-item.active {

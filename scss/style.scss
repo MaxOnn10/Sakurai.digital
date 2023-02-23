@@ -49,15 +49,15 @@
         margin-bottom: 45px;
         border-bottom-color: var(--green);
     }
-    &__cards {
-        display: flex;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-        gap: 15px;
-    }
+    // &__cards {
+    //     display: flex;
+    //     justify-content: space-between;
+    //     flex-wrap: wrap;
+    // }
     &__card {
         background: #171717;
-        min-width: 280px;
+        min-width: 250px;
+        // max-width: 320px;
         padding: 10px 10px 17px;
         text-align: center;
         transition: border 0.1s linear, box-shadow 0.1s linear;
@@ -78,7 +78,7 @@
         text-transform: uppercase;
     }
     &__card-img {
-        width: clamp(290px, 315px, 500px);
+        // width: clamp(290px, 315px, 500px);
         // max-height: 315px;
         margin-bottom: 10px;
     }
@@ -112,8 +112,8 @@
     &__card-btn {
         font-family: "Montserrat-SemiBold";
         color: var(--white);
-        font-size: 18px;
-        line-height: 22px;
+        font-size: 17px;
+        line-height: 21px;
         max-width: 147px;
         width: 100%;
         padding: 7px 23px;
@@ -298,11 +298,18 @@
 // }
 //GAMES PAGE
 .games {
-    &-list {
-        padding-top: 0;
-        @media (max-width: 639.98px) {
-            padding-top: 0;
-        }
+    &__cards {
+        // display: flex;
+        // justify-content: space-between;
+        // gap: 30px;
+        // flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 50px;
+        // padding-top: 0;
+        // @media (max-width: 639.98px) {
+        //     padding-top: 0;
+        // }
     }
     &__cards-list {
         justify-content: flex-start;
